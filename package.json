@@ -1,0 +1,19 @@
+{
+  "name": "trellmo",
+  "version": "0.0.1",
+  "description": "Weekly planner",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint"
+  },
+  "private": true,
+  "devDependencies": {
+    "turbo": "^1.10.12"
+  },
+  "dependencies": {}
+}
