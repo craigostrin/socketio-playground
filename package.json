@@ -1,7 +1,7 @@
 {
-  "name": "trellmo",
+  "name": "socket.io-playground",
   "version": "0.0.1",
-  "description": "Weekly planner",
+  "description": "",
   "license": "MIT",
   "workspaces": [
     "apps/*"
