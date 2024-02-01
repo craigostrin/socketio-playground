@@ -1,13 +1,14 @@
-# react-express-typescript-boilerplate
-Scaffolding for a React+Express+Typescript project including:
+# Socket.io playground
 
-## Server
+For learning purposes
+
+## Based on my react-express-typescript-boilerplate template
+
+### Server
 * Typescript
 * Turborepo
 * Prisma
-* ESLint+Prettier playing nice with each other on the server side (gracias Edu)
+* ESLint+Prettier config
 
-## Client
+### Client
 * TailwindCSS
-
-Make sure to create and init the prisma schema
