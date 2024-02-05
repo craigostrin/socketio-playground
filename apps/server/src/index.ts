@@ -15,11 +15,11 @@ const io = new Server(httpServer, {
 })
 
 io.on('connection', (socket) => {
-  console.log('a user connected')
+  console.log('user connected:', socket.id)
 
-  socket.on('message', (message) => {
+  socket.on('send', (message) => {
     console.log(message)
-    io.emit('message', `${socket.id.slice(0, 2)} said ${message}`)
+    io.emit('receive', `${socket.id.slice(0, 2)} said ${message}`)
   })
 })
 
